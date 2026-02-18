@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react';
 
 // Use environment variable for the backend URL
-const API_URL = 'https://guestbook-git-main-miles-projects-1a6aa47f.vercel.app/api/guestbook';
-;
+const API_URL = '/guestbook';
 
 export default function App() {
   const [entries, setEntries] = useState([]);
